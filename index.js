@@ -1,9 +1,12 @@
 'use strict'
 
-exports.name = 'foo'
-exports.inputFormats = ['foo', 'foobar']
-exports.outputFormat = 'html'
+var prettier = require('prettier')
+var extend = require('extend-shallow')
 
-exports.render = function (str) {
-  return str
+exports.name = 'prettier'
+exports.inputFormats = ['prettier', 'pretty', 'cleanjs']
+exports.outputFormat = 'js'
+
+exports.render = function (str, options, locals) {
+  return prettier.format(str, extend({}, options, locals))
 }
