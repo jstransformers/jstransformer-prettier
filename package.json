@@ -10,7 +10,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "^0.18.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
@@ -31,6 +31,6 @@
   "license": "MIT",
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "prettier": "^0.13.1"
+    "prettier": "^1.2.2"
   }
 }
