@@ -1,7 +1,5 @@
 # jstransformer-prettier
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-prettier.svg)](https://greenkeeper.io/)
-
 [Prettier](https://github.com/jlongster/prettier) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-prettier/master.svg)](https://travis-ci.org/jstransformers/jstransformer-prettier)
