@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-prettier",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Prettier support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -31,6 +31,6 @@
   "license": "MIT",
   "dependencies": {
     "extend-shallow": "^3.0.2",
-    "prettier": "^1.2.2"
+    "prettier": "^1.10.2"
   }
 }

@@ -1,7 +1,7 @@
 'use strict'
 
-var prettier = require('prettier')
-var extend = require('extend-shallow')
+const prettier = require('prettier')
+const extend = require('extend-shallow')
 
 exports.name = 'prettier'
 exports.inputFormats = ['prettier', 'pretty', 'cleanjs']
